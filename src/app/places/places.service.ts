@@ -28,6 +28,41 @@ export class PlacesService {
       'Uh oh',
       'https://filmschoolrejects.com/wp-content/uploads/2019/09/hell-house-llc-1280x720.jpg',
       159.99
+    ),
+    new Place(
+      '5',
+      'Hell House',
+      'Uh oh',
+      'https://filmschoolrejects.com/wp-content/uploads/2019/09/hell-house-llc-1280x720.jpg',
+      159.99
+    ),
+    new Place(
+      '6',
+      'Hell House',
+      'Uh oh',
+      'https://filmschoolrejects.com/wp-content/uploads/2019/09/hell-house-llc-1280x720.jpg',
+      159.99
+    ),
+    new Place(
+      '7',
+      'Hell House',
+      'Uh oh',
+      'https://filmschoolrejects.com/wp-content/uploads/2019/09/hell-house-llc-1280x720.jpg',
+      159.99
+    ),
+    new Place(
+      '8',
+      'Hell House',
+      'Uh oh',
+      'https://filmschoolrejects.com/wp-content/uploads/2019/09/hell-house-llc-1280x720.jpg',
+      159.99
+    ),
+    new Place(
+      '09',
+      'Hell House',
+      'Uh oh',
+      'https://filmschoolrejects.com/wp-content/uploads/2019/09/hell-house-llc-1280x720.jpg',
+      159.99
     )
   ];
 

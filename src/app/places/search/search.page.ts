@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { PlacesService } from '../places.service';
 
+import { SegmentChangeEventDetail } from '@ionic/core'
+
 import { Place } from '../place.model';
 import { MenuController } from '@ionic/angular';
 
@@ -21,5 +23,13 @@ export class SearchPage implements OnInit {
     this.loadedPlaces = this.placesService.places;
 
   };
+
+  onOpenMenu() {
+    this.menuCtrl.toggle();
+  }
+
+  onFilterUpdate(event: CustomEvent<SegmentChangeEventDetail>) {
+    console.log('event: ', event.detail);
+  }
 
 }
